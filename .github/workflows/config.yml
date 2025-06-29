@@ -4,3 +4,6 @@ services:
    container_name: configuracja
    ports:
      - "8000:8000"
+
+  logging:
+  enabled: true
