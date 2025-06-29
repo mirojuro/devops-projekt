@@ -3,4 +3,7 @@ services:
    build: .
    container_name: configuracja
    ports:
-     - "8080"
+     - "8000:8000"
+
+  logging:
+  enabled: true
